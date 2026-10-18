@@ -6,3 +6,13 @@ __pycache__/
 .env.*
 !.env.example
 .vscode/
+
+# Terraform local files and state
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+.terraform.tfstate.lock.info
+
+# Terraform variable files may contain secrets
+*.tfvars
+*.tfvars.json
